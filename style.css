@@ -30,7 +30,7 @@ body {
 .login-form-main {
   width: 50%;
   position: relative;
-  padding: 65px 0;
+  padding: 35px 0;
   z-index: 5;
   background: #fff;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .login-form form {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .login-form h5 {
@@ -100,6 +100,7 @@ body {
   font-weight: 400;
 font-size: 12px;
 color: rgba(51, 51, 51, 0.6);
+margin-top: 5px;
 }
 .dif-account{
   font-weight: 500;
@@ -534,4 +535,20 @@ text-align: center;
   .login-form-main{
     width: 100%;
   }
+}
+.valid-input{
+  background: #FFFFFF;
+border: 1px solid #B02A37;
+box-shadow: 0px 0px 0px 4px rgba(176, 42, 55, 0.1);
+}
+.email-req{
+  font-weight: 400;
+font-size: 12px;
+color: #B02A37;
+margin: 15px 0px 7px 0px;
+}
+.valid-input::placeholder{
+  font-weight: 400;
+font-size: 15px;
+color: #B02A37;
 }
